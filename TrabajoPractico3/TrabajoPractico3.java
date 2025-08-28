@@ -8,6 +8,7 @@ public class TrabajoPractico3 {
         Libro libro1 = new Libro();
         Gallina gallina1 = new Gallina();
         Gallina gallina2 = new Gallina();
+        NaveEspacial nave = new NaveEspacial();
 
         System.out.println("Ejercicio 1");
         estudiante1.nombre = "Agustin";
@@ -69,5 +70,15 @@ public class TrabajoPractico3 {
         gallina1.mostrarEstado();
         gallina2.mostrarEstado();
 
+        System.out.println("");
+        System.out.println("Ejercicio 5");
+        nave.nombre = "Halcon Milenario";
+        nave.combustible = 50;
+
+        nave.despegar();
+        nave.avanzar(60); // deberia fallar
+        nave.recargarCombustible(30); // sube a 80
+        nave.avanzar(60); // ahora sí
+        nave.mostrarEstado();
     }
 }
