@@ -1,3 +1,4 @@
+package TrabajoPractico2;
 import java.util.Scanner;
 
 public class TrabajoPractico2 {
