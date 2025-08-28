@@ -1,6 +1,7 @@
 package TrabajoPractico3;
 
 public class Mascotas {
+    
     String nombre;
     String especie;
     int edad;

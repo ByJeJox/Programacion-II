@@ -5,6 +5,7 @@ public class TrabajoPractico3 {
     public static void main(String[] args) {
         Estudiantes estudiante1 = new Estudiantes();
         Mascotas mascota1 = new Mascotas(); 
+        Libro libro1 = new Libro();
 
         System.out.println("Ejercicio 1");
         estudiante1.nombre = "Agustin";
@@ -24,12 +25,24 @@ public class TrabajoPractico3 {
         mascota1.nombre = "Firu";
         mascota1.especie = "Labrador";
         mascota1.edad = 3;
-        
+
         mascota1.mostrarInfo();
         mascota1.cumplirAnos();
         mascota1.cumplirAnos();
         System.out.println("Pasaron 2 años");
         mascota1.mostrarInfo();
+
+        System.out.println("");
+
+        System.out.println("Ejercicio 3");
+        libro1.setTitulo("El Quijote");
+        libro1.setAutor("Miguel de Cervantes");
+        libro1.setAñoPublicacion(1605);
+        libro1.mostrarInfo();
+
+        libro1.setAñoPublicacion(1400); // Año inválido
+        libro1.setAñoPublicacion(2020); // Año válido
+        libro1.mostrarInfo();
 
     }
 }
