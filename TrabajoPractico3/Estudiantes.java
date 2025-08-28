@@ -2,10 +2,10 @@ package TrabajoPractico3;
 
 public class Estudiantes {
 
-    private String nombre;
-    private String apellido; 
-    private String curso;
-    private double calificacion;
+    String nombre;
+    String apellido; 
+    String curso;
+    double calificacion;
 
     public void mostrarInfo(){
         System.out.println("Nombre: " + nombre + " " + apellido + " Curso: " + curso + " Calificacion: " + calificacion);
