@@ -9,7 +9,7 @@ public class Empleado {
     private static int totalEmpleados = 0;
 
     public Empleado(int id, String nombre, String puesto, double salario) {
-        this.id = id;
+        this.id = id;  // No hay que hacerlo pero lo pide la consigna
         this.nombre = nombre;
         this.puesto = puesto;
         this.salario = salario;
@@ -17,7 +17,7 @@ public class Empleado {
     }
 
     public Empleado(String nombre, String puesto) {
-        this.id = ++totalEmpleados;
+        this.id = ++totalEmpleados; // Esto puede causar problemas si se crean empleados con IDs específicos pero cumple el requisito para la consigna
         this.nombre = nombre;
         this.puesto = puesto;
         this.salario = 500000;
