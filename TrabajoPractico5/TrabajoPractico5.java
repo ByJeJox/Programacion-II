@@ -16,6 +16,10 @@ import TrabajoPractico5.Ejercicio11.Reproductor;
 import TrabajoPractico5.Ejercicio12.Calculadora;
 import TrabajoPractico5.Ejercicio12.Contribuyente;
 import TrabajoPractico5.Ejercicio12.Impuesto;
+import TrabajoPractico5.Ejercicio13.GeneradorQR;
+import TrabajoPractico5.Ejercicio13.Usuario2;
+import TrabajoPractico5.Ejercicio14.EditorVideo;
+import TrabajoPractico5.Ejercicio14.Proyecto;
 import TrabajoPractico5.Ejercicio2.Bateria;
 import TrabajoPractico5.Ejercicio2.Celular;
 import TrabajoPractico5.Ejercicio2.Usuario;
@@ -137,8 +141,17 @@ public class TrabajoPractico5 {
         calculadora1.calcular(impuesto1);
         impuesto1.mostrarImpuesto();
 
+        System.out.println(" ");
+        System.out.println("-----Ejercicio 13-----");
+        Usuario2 usuario3 = new Usuario2("Lucas", "Luquitas@gmail.com");
+        GeneradorQR generadorQR1 = new GeneradorQR();
+        generadorQR1.generar("#CODIGO_QR#", usuario3);
 
-
+        System.out.println(" ");
+        System.out.println("-----Ejercicio 14-----");
+        Proyecto proyecto1 = new Proyecto("Video Explicativo", 6.20);
+        EditorVideo editorVideo1 = new EditorVideo();
+        editorVideo1.exportar("MP4", proyecto1);
     }
     
 }
