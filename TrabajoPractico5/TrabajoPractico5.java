@@ -13,6 +13,9 @@ import TrabajoPractico5.Ejercicio10.Titular1;
 import TrabajoPractico5.Ejercicio11.Artista;
 import TrabajoPractico5.Ejercicio11.Cancion;
 import TrabajoPractico5.Ejercicio11.Reproductor;
+import TrabajoPractico5.Ejercicio12.Calculadora;
+import TrabajoPractico5.Ejercicio12.Contribuyente;
+import TrabajoPractico5.Ejercicio12.Impuesto;
 import TrabajoPractico5.Ejercicio2.Bateria;
 import TrabajoPractico5.Ejercicio2.Celular;
 import TrabajoPractico5.Ejercicio2.Usuario;
@@ -124,6 +127,15 @@ public class TrabajoPractico5 {
         cancion1.setArtista(artista1);
         Reproductor reproductor1 = new Reproductor();
         reproductor1.reproducir(cancion1);
+
+        System.out.println(" ");
+        System.out.println("-----Ejercicio 12-----");
+        Impuesto impuesto1 = new Impuesto(5);
+        Contribuyente contribuyente1 = new Contribuyente("Mariano Medina", "20857436586");
+        impuesto1.setContribuyente(contribuyente1);
+        Calculadora calculadora1 = new Calculadora();
+        calculadora1.calcular(impuesto1);
+        impuesto1.mostrarImpuesto();
 
 
 
