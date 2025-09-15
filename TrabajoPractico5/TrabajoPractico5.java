@@ -1,10 +1,13 @@
 package TrabajoPractico5;
 
+import TrabajoPractico5.Ejercicio3.Libro;
 import TrabajoPractico5.Ejercicio1.Pasaporte;
 import TrabajoPractico5.Ejercicio1.Titular;
 import TrabajoPractico5.Ejercicio2.Bateria;
 import TrabajoPractico5.Ejercicio2.Celular;
 import TrabajoPractico5.Ejercicio2.Usuario;
+import TrabajoPractico5.Ejercicio3.Autor;
+import TrabajoPractico5.Ejercicio3.Editorial;
 
 public class TrabajoPractico5 {
 
@@ -32,6 +35,13 @@ public class TrabajoPractico5 {
 
         System.out.println(" ");
         System.out.println("-----Ejercicio 3-----");
+        Editorial editorial1 = new Editorial("DEBOLSILLO", "Maipu 123");
+        Libro libro1 = new Libro("Dune", "978-84-663-3465-0", editorial1);
+        Autor autor1 = new Autor("Frank Herbert", "EE.UU");
+
+        libro1.setAutor(autor1);
+        libro1.mostrarLibro();
+        
 
 
     }

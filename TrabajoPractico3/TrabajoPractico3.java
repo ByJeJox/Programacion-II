@@ -5,7 +5,6 @@ public class TrabajoPractico3 {
     public static void main(String[] args) {
         Estudiantes estudiante1 = new Estudiantes();
         Mascotas mascota1 = new Mascotas(); 
-        Libro libro1 = new Libro();
         Gallina gallina1 = new Gallina();
         Gallina gallina2 = new Gallina();
         NaveEspacial nave = new NaveEspacial();
@@ -34,18 +33,6 @@ public class TrabajoPractico3 {
         mascota1.cumplirAnos();
         System.out.println("Pasaron 2 años");
         mascota1.mostrarInfo();
-
-        System.out.println("");
-
-        System.out.println("Ejercicio 3");
-        libro1.setTitulo("El Quijote");
-        libro1.setAutor("Miguel de Cervantes");
-        libro1.setAñoPublicacion(1605);
-        libro1.mostrarInfo();
-
-        libro1.setAñoPublicacion(1400); // Año invalido
-        libro1.setAñoPublicacion(2020); // Año válido
-        libro1.mostrarInfo();
 
         System.out.println("");
 
