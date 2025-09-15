@@ -4,6 +4,8 @@ import TrabajoPractico5.Ejercicio3.Libro;
 import TrabajoPractico5.Ejercicio4.Banco;
 import TrabajoPractico5.Ejercicio4.Cliente;
 import TrabajoPractico5.Ejercicio4.TarjetaDeCredito;
+import TrabajoPractico5.Ejercicio5.Computadora;
+import TrabajoPractico5.Ejercicio5.Propietario;
 import TrabajoPractico5.Ejercicio1.Pasaporte;
 import TrabajoPractico5.Ejercicio1.Titular;
 import TrabajoPractico5.Ejercicio2.Bateria;
@@ -54,7 +56,12 @@ public class TrabajoPractico5 {
         tarjeta1.setCliente(cliente1);
         tarjeta1.mostrarTarjeta();
 
-
+        System.out.println(" ");
+        System.out.println("-----Ejercicio 5-----");
+        Computadora computadora1 = new Computadora("Asus", "34567645", "E1504", "Intel Z690");
+        Propietario Propietario1 = new Propietario("Matias Gonzales", "40876534");
+        computadora1.setPropietario(Propietario1);
+        computadora1.mostrarComputadora();
         
 
 
