@@ -8,11 +8,24 @@ import TrabajoPractico5.Ejercicio5.Computadora;
 import TrabajoPractico5.Ejercicio5.Propietario;
 import TrabajoPractico5.Ejercicio1.Pasaporte;
 import TrabajoPractico5.Ejercicio1.Titular;
+import TrabajoPractico5.Ejercicio10.CuentaBancaria;
+import TrabajoPractico5.Ejercicio10.Titular1;
 import TrabajoPractico5.Ejercicio2.Bateria;
 import TrabajoPractico5.Ejercicio2.Celular;
 import TrabajoPractico5.Ejercicio2.Usuario;
 import TrabajoPractico5.Ejercicio3.Autor;
 import TrabajoPractico5.Ejercicio3.Editorial;
+import TrabajoPractico5.Ejercicio6.Mesa;
+import TrabajoPractico5.Ejercicio6.Reserva;
+import TrabajoPractico5.Ejercicio7.Conductor;
+import TrabajoPractico5.Ejercicio7.Motor;
+import TrabajoPractico5.Ejercicio6.Cliente1;
+import TrabajoPractico5.Ejercicio7.Vehiculo;
+import TrabajoPractico5.Ejercicio8.Documento;
+import TrabajoPractico5.Ejercicio8.Usuario1;
+import TrabajoPractico5.Ejercicio9.CitaMedica;
+import TrabajoPractico5.Ejercicio9.Paciente;
+import TrabajoPractico5.Ejercicio9.Profesional;
 
 public class TrabajoPractico5 {
 
@@ -63,6 +76,43 @@ public class TrabajoPractico5 {
         computadora1.setPropietario(Propietario1);
         computadora1.mostrarComputadora();
         
+        System.out.println(" ");
+        System.out.println("-----Ejercicio 6-----");
+        Cliente1 cliente2 = new Cliente1("Sofia Villanueva", "40853492");
+        Mesa mesa1 = new Mesa("3", 4);
+        Reserva reserva1 = new Reserva("20/06/2024", "20:00", mesa1);
+        reserva1.setCliente(cliente2);
+        reserva1.mostrarReserva();
+
+        System.out.println(" ");
+        System.out.println("-----Ejercicio 7-----");
+        Motor motor1 = new Motor("V8", "SN123456789");
+        Vehiculo vehiculo1 = new Vehiculo("ABC123", "Ford Mustang", motor1);
+        Conductor conductor1 = new Conductor("Lucas Fernandez", "XYZ987654");
+        vehiculo1.setConductor(conductor1);
+        vehiculo1.mostrarVehiculo();
+
+        System.out.println(" ");
+        System.out.println("-----Ejercicio 8-----");
+        Usuario1 usuario2 = new Usuario1("Martin Rodriguez", "40328654");
+        Documento documento1 = new Documento("Contrato de Alquiler", "Este es el contenido del contrato de alquiler.", "a1b2c3d4e5f6g7h8", "15/06/2024", usuario2);
+        documento1.mostrarDocumento();
+
+        System.out.println(" ");
+        System.out.println("-----Ejercicio 9-----");
+        CitaMedica cita1 = new CitaMedica("24/10/2025", "10:30");
+        Paciente paciente1 = new Paciente("Ana Gomez", "OSDE");
+        Profesional profesional1 = new Profesional("Dr. Juan Perez", "Cardiologia");
+        cita1.setPaciente(paciente1);
+        cita1.setProfesional(profesional1);
+        cita1.mostrarCitaMedica();
+
+        System.out.println(" ");
+        System.out.println("-----Ejercicio 10-----");
+        CuentaBancaria cuenta1 = new CuentaBancaria("4359654890", 400000, "5675623453", "10/9/2025");
+        Titular1 titular1 = new Titular1("Rodolfo Nuñez", "20947368");
+        cuenta1.setTitular(titular1);
+        cuenta1.mostrarCuentaBancaria();
 
 
     }
