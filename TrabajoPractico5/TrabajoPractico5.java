@@ -10,6 +10,9 @@ import TrabajoPractico5.Ejercicio1.Pasaporte;
 import TrabajoPractico5.Ejercicio1.Titular;
 import TrabajoPractico5.Ejercicio10.CuentaBancaria;
 import TrabajoPractico5.Ejercicio10.Titular1;
+import TrabajoPractico5.Ejercicio11.Artista;
+import TrabajoPractico5.Ejercicio11.Cancion;
+import TrabajoPractico5.Ejercicio11.Reproductor;
 import TrabajoPractico5.Ejercicio2.Bateria;
 import TrabajoPractico5.Ejercicio2.Celular;
 import TrabajoPractico5.Ejercicio2.Usuario;
@@ -113,6 +116,15 @@ public class TrabajoPractico5 {
         Titular1 titular1 = new Titular1("Rodolfo Nuñez", "20947368");
         cuenta1.setTitular(titular1);
         cuenta1.mostrarCuentaBancaria();
+
+        System.out.println(" ");
+        System.out.println("-----Ejercicio 11-----");
+        Cancion cancion1 = new Cancion("Let It Be");
+        Artista artista1 = new Artista("The Beatles", "rock and rol");
+        cancion1.setArtista(artista1);
+        Reproductor reproductor1 = new Reproductor();
+        reproductor1.reproducir(cancion1);
+
 
 
     }
