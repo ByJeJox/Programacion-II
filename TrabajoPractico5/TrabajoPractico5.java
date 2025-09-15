@@ -1,6 +1,9 @@
 package TrabajoPractico5;
 
 import TrabajoPractico5.Ejercicio3.Libro;
+import TrabajoPractico5.Ejercicio4.Banco;
+import TrabajoPractico5.Ejercicio4.Cliente;
+import TrabajoPractico5.Ejercicio4.TarjetaDeCredito;
 import TrabajoPractico5.Ejercicio1.Pasaporte;
 import TrabajoPractico5.Ejercicio1.Titular;
 import TrabajoPractico5.Ejercicio2.Bateria;
@@ -41,6 +44,17 @@ public class TrabajoPractico5 {
 
         libro1.setAutor(autor1);
         libro1.mostrarLibro();
+
+        System.out.println(" ");
+        System.out.println("-----Ejercicio 4-----");
+        Banco banco1 = new Banco("Galicia", "25-123456678-9");
+        TarjetaDeCredito tarjeta1 = new TarjetaDeCredito("5678-7869-6758-0960", "12/26", banco1);
+        Cliente cliente1 = new Cliente("Omar Rios","29964587");
+
+        tarjeta1.setCliente(cliente1);
+        tarjeta1.mostrarTarjeta();
+
+
         
 
 
