@@ -1,6 +1,5 @@
 package TrabajoPractico6.CasoPractico1;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class Inventario {
@@ -74,7 +73,7 @@ public class Inventario {
     public int obtenerTotalStock() {
         int totalStock = 0;
         for (Producto p : productos) {
-            totalStock += p.getCantidad()
+            totalStock += p.getCantidad();
         }
         return totalStock;
     }
@@ -106,7 +105,7 @@ public class Inventario {
     public void mostrarCategoriasDisponibles()  {
         System.out.println("Categorias disponibles: ");
         for (CategoriaProducto c : CategoriaProducto.values()) {
-            System.out.println("Categoria: " + c);
+            System.out.println(c);
             System.out.println("Descripcion: " + c.getDescripcion());
         }
     }
