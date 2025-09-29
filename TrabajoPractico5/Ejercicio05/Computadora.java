@@ -1,4 +1,4 @@
-package TrabajoPractico5.Ejercicio5;
+package TrabajoPractico5.Ejercicio05;
 
 public class Computadora {
 

@@ -1,4 +1,4 @@
-package TrabajoPractico5.Ejercicio3;
+package TrabajoPractico5.Ejercicio03;
 
 public class Editorial {
 

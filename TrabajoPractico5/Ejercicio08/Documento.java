@@ -1,4 +1,4 @@
-package TrabajoPractico5.Ejercicio8;
+package TrabajoPractico5.Ejercicio08;
 
 public class Documento {
 

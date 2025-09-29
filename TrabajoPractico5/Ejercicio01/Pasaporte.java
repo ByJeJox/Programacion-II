@@ -1,4 +1,4 @@
-package TrabajoPractico5.Ejercicio1;
+package TrabajoPractico5.Ejercicio01;
 
 public class Pasaporte {
 

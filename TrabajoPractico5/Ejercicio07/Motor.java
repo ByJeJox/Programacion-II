@@ -1,4 +1,4 @@
-package TrabajoPractico5.Ejercicio7;
+package TrabajoPractico5.Ejercicio07;
 
 public class Motor {
 

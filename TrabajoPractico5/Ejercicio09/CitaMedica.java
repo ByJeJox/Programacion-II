@@ -1,4 +1,4 @@
-package TrabajoPractico5.Ejercicio9;
+package TrabajoPractico5.Ejercicio09;
 
 public class CitaMedica {
 

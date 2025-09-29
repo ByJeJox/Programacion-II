@@ -1,4 +1,4 @@
-package TrabajoPractico5.Ejercicio4;
+package TrabajoPractico5.Ejercicio04;
 
 public class Cliente {
 

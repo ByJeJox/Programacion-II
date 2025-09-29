@@ -1,4 +1,4 @@
-package TrabajoPractico5.Ejercicio8;
+package TrabajoPractico5.Ejercicio08;
 
 public class Usuario1 { //Al igual que con cliente le cambie el nombre para evitar conflictos con el ejercicio 2
 

@@ -1,4 +1,4 @@
-package TrabajoPractico5.Ejercicio6;
+package TrabajoPractico5.Ejercicio06;
 
 public class Cliente1 { /*Le cambie el nombre porque ya hay otra clase Cliente asi se puede enviar todo el programa junto*/
 

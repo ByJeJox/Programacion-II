@@ -1,4 +1,4 @@
-package TrabajoPractico5.Ejercicio2;
+package TrabajoPractico5.Ejercicio02;
 
 public class Usuario {
 

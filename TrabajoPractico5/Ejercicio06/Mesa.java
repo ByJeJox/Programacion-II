@@ -1,4 +1,4 @@
-package TrabajoPractico5.Ejercicio6;
+package TrabajoPractico5.Ejercicio06;
 
 public class Mesa {
 
