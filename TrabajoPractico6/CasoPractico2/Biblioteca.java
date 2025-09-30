@@ -14,9 +14,9 @@ public class Biblioteca {
         this.libros = new ArrayList<>();
     }
 
-    public void agregarLibro(String isbn, String titulo,int anioPublicacion, Autor autor) {
-        if (!isbn.equals("") && isbn !=null && !titulo.equals("") && titulo !=null && anioPublicacion > 0 && autor != null) {
-            libros.add(new Libro(isbn, titulo, anioPublicacion, autor));
+    public void agregarLibro(String isbn, String titulo,int anioPublicacion, Autor1 autor1) {
+        if (!isbn.equals("") && isbn !=null && !titulo.equals("") && titulo !=null && anioPublicacion > 0 && autor1 != null) {
+            libros.add(new Libro(isbn, titulo, anioPublicacion, autor1));
         }
     }
 
